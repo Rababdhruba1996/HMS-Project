@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://wallpapers-house.com/data/out/9/wallpaper2you_350796.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+.navbar{
+  
+  padding: .8rem;
+  background: rgba(2,2,2,0.2);
+  box-shadow:1px 2px 4px orange;
+   background-color: #EC3803;
+}
+.navbar-nav li
+{
+  padding-right:20px;
+  color:#ED553D;
+}
+.nav-link
+{
+  font-size: 1.1em !important;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+}
+
+.box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background: url(https://wallpapers-house.com/data/out/9/wallpaper2you_350796.jpg);
+    background-size: cover;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: orangered;
+  font-size: 0.75rem;
+}
+
+.box input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: orangered;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+
+}
+
+.box input[type="submit"]:hover {
+  background-color: darkorange;
+}
+.box input[type="button"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: orangered;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  float: right;
+}
+
+.box input[type="button"]:hover {
+  background-color: darkorange;
+}
+
+.btn:hover {
+  background-color: darkorange;
+}
